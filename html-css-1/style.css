@@ -1,0 +1,137 @@
+body {
+  margin: 0 1em;
+  font-family: sans-serif;
+  background: black;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 100;
+  font-size: 12px;
+  background: grey; 
+}
+
+.company {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: white;
+  padding: 20px;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  text-transform: capitalize;
+
+}
+
+.link, .user-nav {
+  margin: 0 0.5em;
+  color: white;
+}
+
+.user-nav {
+  text-transform: capitalize;
+}
+
+/* other section */
+
+container-1{
+  display:flex;
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: flex-center;
+  background: white;
+}
+.box1{
+  text-transform: capitalize;
+  color: yellow;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 97%;
+ height: 200px;
+}
+.container-2{
+  height: 400px;
+  display: flex;
+  background: white;
+  justify-content: space-around;
+}
+.container-1 div{
+  border: 1px white solid;
+  padding: 10px;
+}
+.container-2{
+  height: 400px;
+  display: flex;
+  background: white;
+  justify-content: space-around;
+}
+.container-2 div{
+  border: 1px black solid;
+  padding: 10px;
+  border-radius: 10px;
+ background: rgb(164, 209, 209);
+ width: 200px;
+ height: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+.container-3{
+  height: 300px;
+  display: flex;
+  background: white;
+  justify-content: space-around;
+}
+.container-3 div{
+  border: 1px black solid;
+  padding: 10px;
+ background: rgb(216, 201, 67);
+ width: 350px;
+ height: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ justify-content: space-around;
+}
+.container-4{
+  height: 300px;
+  display: flex;
+  background: white;
+  justify-content: space-around;
+}
+.container-4 div{
+  
+  padding: 10px;
+  border-radius: 10px;
+ background: white;
+ width: 200px;
+ height: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ color: black;
+}
+
+ 
+
+
+
+.container-5{
+  border: 1px black solid;
+  padding: 10px;
+ background: rgb(83, 70, 109);
+ height: 50px;
+}
+
